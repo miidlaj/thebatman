@@ -1,0 +1,380 @@
+* {
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+}
+
+body {
+    background: #131313;
+}
+
+#scroll-bar::-webkit-scrollbar-track
+{
+	border: 1px solid black;
+	background-color: #131313;
+}
+
+#scroll-bar::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+#scroll-bar::-webkit-scrollbar-thumb
+{
+	background-color: #c6310d;	
+}
+.navbar {
+    background-color: #131313;
+    padding: 1rem 8rem;
+    z-index: 10000;
+}
+
+.navbar .navbar-brand {
+    font-size: 1.4rem;
+    color: #c6310d;
+}
+
+.navbar .navbar-brand:hover {
+    color: #b65015;
+}
+
+#navbarSupportedContent>ul>li:nth-child(n)>a {
+    font-size: 1.1rem;
+    color: #c6310d;
+    padding: 0 0.8rem;
+    text-transform: uppercase;
+}
+
+#navbarSupportedContent>ul>li:nth-child(n)>a:hover {
+    color: #b65015;
+}
+
+.header {
+    background-color: #131313;
+    width: 100%;
+    height: 100vh;
+    
+}
+.mid{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.mid video {
+    width: 100%;
+    height: 130%;
+    pointer-events: none;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 55px;
+}
+
+.mid .hero {
+    position: relative;
+}
+
+.mid .hero h2 {
+    color: #c6310d;
+}
+
+.mid .hero p {
+    color: #b65015;
+    width: 55%;
+    font-size: 1.1rem;
+    letter-spacing: 0.2px;
+    padding-bottom: 1rem;
+}
+
+.mid .hero a {
+    background: #131313;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    color: #c6310d;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.mid .hero a:hover {
+    background-color: #c6310d;
+    color: #131313;
+}
+
+.about {
+    background: #131313;
+}
+
+.about .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.about .text h6 {
+    color: #b65015;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.about .text h2 {
+    color: #c6310d;
+    font-size: 2.7rem;
+}
+
+.about .text p {
+    color: #b65015;
+    font-size: 1.1rem;
+}
+
+.about .text a {
+    background: #131313;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    color: #c6310d;
+    text-decoration: none;
+    transition: all .5s;
+    border: 1px solid #b65015;
+}
+
+.about .text a:hover {
+    background-color: #c6310d;
+    color: #131313;
+    border: 1px solid #131313;
+}
+
+.discover {
+    background: #c6310d;
+}
+
+.discover .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.discover .text h6 {
+    color: #131313;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.discover .text h2 {
+    color: #131313;
+    font-size: 2.7rem;
+}
+
+.discover .text p {
+    color: #131313;
+    font-size: 1.1rem;
+}
+
+.discover .text a {
+    background: #131313;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    color: #c6310d;
+    text-decoration: none;
+    transition: all .5s;
+    border: 1px solid #b65015;
+}
+
+.discover .text a:hover {
+    background-color: #c6310d;
+    color: #131313;
+    border: 1px solid #131313;
+}
+
+.casts {}
+
+.casts h2 {
+    color: #c6310d;
+}
+
+.casts h5 {
+    color: #c6310d;
+}
+
+.casts p {
+    color: #b65015;
+}
+
+.casts .one img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.casts .one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1.5rem;
+}
+
+.casts .one h5 {
+    padding-top: 30px;
+}
+
+
+.watch h2 {
+    color: #c6310d;
+}
+
+
+.watch .one a img {
+    width: 100%;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.watch .one a img:hover {
+    transform: scale(1.1);
+}
+
+.watch .one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1.5rem;
+}
+
+/* .carousel-indicators */
+
+.review h2 {
+    color: #c6310d;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    margin: 25px 0 50px;
+}
+
+.carousel {
+    width: 650px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.carousel .carousel-item {
+    color: #b65015;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    min-height: 340px;
+}
+
+.carousel .carousel-item a {
+    color: #b65015;
+}
+
+.carousel .img-box {
+    width: 145px;
+    height: 145px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.carousel .img-box img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 50%;
+}
+
+.carousel .testimonial {
+    padding: 30px 0 10px;
+}
+
+.carousel .overview {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.carousel .overview b {
+    color: #333;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: block;
+    padding-bottom: 5px;
+}
+
+.carousel .star-rating i {
+    font-size: 18px;
+    color: #ffdc12;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #c6310d;
+    text-shadow: none;
+    top: 4px;
+}
+
+.carousel-control-prev i,
+.carousel-control-next i {
+    font-size: 20px;
+    margin-right: 2px;
+}
+
+.carousel-control-prev {
+    left: auto;
+    right: 40px;
+}
+
+.carousel-control-next i {
+    margin-right: -2px;
+}
+
+.carousel .carousel-indicators {
+    bottom: 15px;
+}
+
+.carousel-indicators li,
+.carousel-indicators li.active {
+    width: 11px;
+    height: 11px;
+    margin: 1px 5px;
+    border-radius: 50%;
+}
+
+.carousel-indicators li {
+    background: #999;
+    border: none;
+}
+
+.carousel-indicators li.active {
+    background: #c6310d;
+}
+
+.footer {
+    background-color: #c6310d;
+}
+
+.footer i {
+    color: #131313;
+}
+
+footer .my-link {
+    text-decoration: none;
+    color: #333;
+}
+
+footer .my-link:hover {
+    color: darkgreen;
+}
